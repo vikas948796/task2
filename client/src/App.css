@@ -1,0 +1,197 @@
+label{
+  text-align: left;
+  font-size: medium;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: mediumseagreen;
+  min-height: 100vh;
+  
+  
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.main-box{
+  background-color: whitesmoke;
+  height: 500px;
+  width: 340px;
+  border: 3px solid cadetblue;
+  padding: 20px;
+  box-shadow:3px 3px 5px 6px #ccc;
+  border-radius: 3px;
+}
+
+.main-box h3{
+  color:orangered;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+}
+
+#text-input{
+  width: 100%;
+  height: 36px;
+  padding: 10px;
+  font-size: 22px;
+  padding-left: 35px;
+}
+
+#text-input:hover{
+  border: 2px solid mediumaquamarine;
+}
+
+.main-box hr{
+  border: 1px solid mediumaquamarine;
+}
+
+#btn{
+  color:white;
+  background-color:  mediumaquamarine;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#text-input::placeholder{
+  color:gray;
+  font-size: 16px;
+  margin-bottom: 1px;
+  
+}
+
+.input-container i{
+  position: absolute;
+  padding: 4px;
+  margin-left: 3px;
+  color: rgb(49, 0, 128);
+   font-size: 18px;
+   text-align: left;
+   border: none;
+   /*border-right: 2px solid black;*/
+}
+
+.link h6{
+  text-align: center;
+  color:darkblue;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.table{
+  width: 100%;
+}
+#er3{
+  width:100%;
+  height:200px;
+  border-radius:30%;
+}
+#er2{
+  width:50%;
+  height:150px;
+  border-radius:30%;
+}
+#er{
+  width:100%;
+  height:80px;
+}
+#er1{
+  width:100%;
+  height:280px;
+  opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+#er5{
+  width:100%;
+  height:350px;
+}
+.header{
+width:100%;
+height:280px;
+background-color:black;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  z-index:1;
+  color:White;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#span1
+{
+  color:#dbdbdb;
+  font-size:3vw;
+}
+
+#onhover {
+  display: none;
+}
+#surround:hover span[id="initial"] {
+  display: none;
+}
+#surround:hover span[id="onhover"] {
+  display: block;
+}
+#btn111
+{
+  width:"200px";
+}
+#span3{
+color:rgb(177, 177, 177);
+font-size:2vw;  
+}#span4{
+  color:rgb(85, 85, 85);
+  font-size:2vw;  
+  margin-left:100px;
+  }
+
+
+  .careers-openings {
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    display: block;
+    text-align: left;
+    position: relative;
+    transition: all .3s ease-in-out;
+    -webkit-box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
+}
+
+#container1
+{
+  position: relative;
+  margin-left: 300px;
+}
+
+
+@media only screen and (man-width: 600px) {
+#btn111
+{
+  width:"100px";
+}
+}
+
+
+
