@@ -99,12 +99,12 @@ label{
   width: 100%;
 }
 #er3{
-  width:100%;
-  height:200px;
+  width:80%;
+  height:150px;
   border-radius:30%;
 }
 #er2{
-  width:50%;
+  width:80%;
   height:150px;
   border-radius:30%;
 }
@@ -120,7 +120,7 @@ label{
 }
 #er5{
   width:100%;
-  height:350px;
+  height: 425px;
 }
 .header{
 width:100%;
@@ -145,24 +145,29 @@ background-color:black;
 
 #onhover {
   display: none;
+ 
 }
 #surround:hover span[id="initial"] {
   display: none;
+ 
 }
 #surround:hover span[id="onhover"] {
+
   display: block;
 }
 #btn111
 {
-  width:"200px";
+  width:40%;
 }
 #span3{
+  margin-bottom: 20px;
 color:rgb(177, 177, 177);
-font-size:2vw;  
-}#span4{
+font-size:30px;  
+}
+#span4{
   color:rgb(85, 85, 85);
-  font-size:2vw;  
-  margin-left:100px;
+  font-size:23px;  
+  margin-left:50px;
   }
 
 
@@ -184,14 +189,47 @@ font-size:2vw;
   position: relative;
   margin-left: 300px;
 }
+#tab1
+{
+  margin-left:85px;
+}
+#card_title{
+  font-size:14.4px;
+}
+#left1
+{
+  margin-left:50px; 
+}
+.card2{
+  margin-top: 20px;
+}
 
-
-@media only screen and (man-width: 600px) {
+@media only screen and (max-width: 600px) {
 #btn111
 {
-  width:"100px";
+  width:100px;
 }
 }
+@media only screen and (max-width: 765px) {
+  
+  #left2
+  {
+    margin-left:50px; 
+  }
+
+  }
+  
+  .card {
+    transition: transform 0.5s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
 
 
 
